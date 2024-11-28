@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <EditText
+        android:id="@+id/edtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título do Livro"
+        android:inputType="text"
+        android:backgroundTint="#03A9F4" />
+
+    <EditText
+        android:id="@+id/edtAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Autor"
+        android:inputType="text"
+        android:backgroundTint="#03A9F4" />
+
+    <EditText
+        android:id="@+id/edtGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gênero"
+        android:inputType="text"
+        android:backgroundTint="#03A9F4" />
+
+    <EditText
+        android:id="@+id/edtYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ano de Publicação"
+        android:inputType="number"
+        android:backgroundTint="#03A9F4" />
+
+    <EditText
+        android:id="@+id/edtNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Notas ou Avaliações"
+        android:inputType="textMultiLine"
+        android:backgroundTint="#03A9F4" />
+</LinearLayout>

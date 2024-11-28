@@ -1,0 +1,3 @@
+<resources>
+    <string name="book_info_format">%1$s - %2$s\nGênero: %3$s\nAno: %4$d</string>
+</resources>
